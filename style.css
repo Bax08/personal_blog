@@ -1,0 +1,37 @@
+/* static/css/styles.css */
+.post {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .meta {
+    color: #888;
+    font-style: italic;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  

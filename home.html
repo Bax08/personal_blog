@@ -1,0 +1,23 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Personal Blog</title> 
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <h1>Welcome to My Personal Blog</h1>
+    {% for post in posts %}
+        <div class="post">
+            <h2>{{ post.title }}</h2>
+            <p>Author: {{ post.author }}</p>
+            <p>Date: {{ post.date }}</p>
+            <p>{{ post.content }}</p>
+        </div>
+        <hr>
+    {% endfor %}
+
+    <script src="{% static 'script.js' %}"></script>
+</body>
+</html>
