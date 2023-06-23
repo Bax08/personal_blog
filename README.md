@@ -1,2 +1,3 @@
 # personal_blog
-Personal Blog
+A starter project for django users
+
